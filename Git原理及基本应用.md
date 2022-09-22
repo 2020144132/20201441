@@ -27,10 +27,10 @@
 ## 二、配置信息
 
 ```
-配置用户名：git config --global user.name "xxx"
-配置邮箱：git config --global nser.email "xxx"
-配置大小写敏感：git config --global core.ignorecase false
-查看配置信息：git config --list
+1|配置用户名：git config --global user.name "xxx"
+2|配置邮箱：git config --global nser.email "xxx"
+3|配置大小写敏感：git config --global core.ignorecase false
+4|查看配置信息：git config --list
 ```
 
 ## 三、基本原理
@@ -46,7 +46,7 @@
 4、workspace：工作区，也就是编辑文件的位置；
 
 
-![](C:\Users\wang\Desktop\图片git\123490cbeb804c729671f8803d8d84f0.png)
+![](https://img-blog.csdnimg.cn/123490cbeb804c729671f8803d8d84f0.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LiA5Liq54Ot54ix5a2m5Lmg55qE5rex5bqm5rij5rij,size_10,color_FFFFFF,t_70,g_se,x_16)
 
 根据上图理解提交代码的流程：
 
@@ -66,13 +66,13 @@
 
 - **Staged**：执行git commit 则将修改同步到库中，这时库中的文件和本地文件虽为一致，文件为Unmodified。执行git reset HEAD filename取消暂存，文件状态为modified。
 
-![](C:\Users\wang\Desktop\图片git\c11737a642fd4f238d9b6ff9830c3e3d.png)
+![](https://img-blog.csdnimg.cn/c11737a642fd4f238d9b6ff9830c3e3d.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LiA5Liq54Ot54ix5a2m5Lmg55qE5rex5bqm5rij5rij,size_10,color_FFFFFF,t_70,g_se,x_16)
 
 ## 四、基本操作
 
-![](C:\Users\wang\Desktop\图片git\49ee8b1719bb4153a3e2bada749941e4.png)
+![](https://img-blog.csdnimg.cn/49ee8b1719bb4153a3e2bada749941e4.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5LiA5Liq54Ot54ix5a2m5Lmg55qE5rex5bqm5rij5rij,size_18,color_FFFFFF,t_70,g_se,x_16)
 
-下面就讲解一些简单操作：
+下面是一些简单操作：
 
 - **初始化本地仓库**
 
@@ -92,7 +92,7 @@
 
 ```
 1|git log #查看提交的日志
-2|git reset --head Head^ #回退到上个版本，^代表回退几个版本（如果已经commit，需要这样回退
+2|git reset --head Head^ #回退到上个版本，^代表回退几个版本（如果已经commit，需要这样回退）
 ```
 
 - **分支与标签管理**
